@@ -1,15 +1,16 @@
 body {
-    background-image: url("../images/wp1889601-bricks-wallpapers.jpg");
-    /* background-repeat: no-repeat;
+    background-image: url(../images/wp1889601-bricks-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; */
+    text-align: center;
+    overflow: hidden;   
+ }
 
-}
 #nav-bar {
     text-align: center;
     height: 70px;
     background-color: rgb(165, 160, 160, .23);
-   
     overflow: hidden;
     position: fixed;
     bottom: 0;
@@ -28,11 +29,28 @@ body {
     margin: 0 auto;
 }
 
-/* #main-content {
+#main-content {
+     margin: 434px auto; 
+    display: inline-block;
+    vertical-align: center;
     
-} */
+ } 
 
 #name, #content {
     color: white;
     
+}
+
+#contact-form {
+    width: 35%;
+    color: white;
+    margin: 0 auto;
+    margin-top: 10%;
+    -ms-high-contrast-adjust: auto;
+}
+
+#firstName-input,#lastName-input,#email-input,#comments-input {
+    background-color: rgba(248, 245, 244, 0.35);
+    border: black;
+    color: black;
 }

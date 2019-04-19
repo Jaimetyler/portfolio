@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     text-align: center;
     overflow: hidden;   
+    height: 100%;
  }
 
 #nav-bar {
@@ -53,4 +54,14 @@ body {
     background-color: rgba(248, 245, 244, 0.35);
     border: black;
     color: black;
+}
+
+.image {
+    opacity: .44;
+    height: 200px;
+    width: 200px;
+}
+
+#portfolio-content {
+    margin-top:10%;
 }

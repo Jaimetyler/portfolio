@@ -55,6 +55,7 @@ body {
     background-color: rgb(165, 160, 160, .45);
     overflow-x: hidden;
     padding-top: 16px;
+    
   }
   
   #headshot {
@@ -76,9 +77,11 @@ body {
 }
 
 #main-content {
-     margin: 434px auto; 
+     /* margin: 434px auto;  */
+     margin-top: 30%;
     display: inline-block;
     vertical-align: center;
+    text-align: center; 
     
  } 
 
@@ -95,11 +98,13 @@ body {
     -ms-high-contrast-adjust: auto;
 }
 
-#firstName-input,#lastName-input,#email-input,#comments-input {
-    background-color: rgba(248, 245, 244, 0.35);
+#firstName-input,#email-input,#comments-input {
+    background-color: rgba(248, 245, 244, 0.55);
     border: black;
-    color: black;
-}
+    color: white;
+   
+  
+  }
 
 .image {
     opacity: .44;

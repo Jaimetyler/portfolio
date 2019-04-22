@@ -13,7 +13,7 @@
 
 <body>
         
-    <ul class="nav nav-pills" id = "nav-bar">
+     <ul class="nav nav-pills" id = "nav-bar">
         <div class = "row" id = "nav-links">
         <li class="nav-item">
             <a class="nav-link active" href="index.html" id = "about">About</a>
@@ -25,21 +25,30 @@
         <li class="nav-item ">
             <a class="nav-link active" href="./contact.html" id = "contact">Contact</a>
         </li>
-        </div>
-    </ul>
-     
-    <div class = "sidebar" style = "display: none">
+       
+    </ul> 
+</div>
+    <div class = "sidebar" id = "mySidebar" style = "display: none">
         <button class = "exit-sidebar">Close</button>
         <img class="image" id = "headshot" src="assets/images/download.png" style = "width: 150px; height: 200px;">
        <a href = "assets/images/Jaime Tyler Resume.pdf"> <img class="image" id = "resume" src="assets/images/Resume.jpg" style = "width: 150px; height: 200px;"></a>
+       <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+            <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+            <a href="#" class="w3-bar-item w3-button">Link 1</a>
+            <a href="#" class="w3-bar-item w3-button">Link 2</a>
+            <a href="#" class="w3-bar-item w3-button">Link 3</a>
+          </div>
     </div>
     <div class = "container" id = "container">
             <button class="button" id = "port-button" >Click for resume</button>
     <div class = "container" id = "main-content">
-                    
+        <div class = "row" id = "main">   
+            <div class = "col-sm-12" >       
         <h1 class = "header" id = "name">Jaime Tyler</h1>
         <h3 class = "content" id = "content">Full Stack Web Developer</h3>
     </div>
+</div>
+</div> 
 </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script type = "text/javascript" src = "assets/javascript/app.js"></script>

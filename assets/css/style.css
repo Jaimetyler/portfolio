@@ -154,4 +154,46 @@ body {
     width: 100px;
     margin-top: 5%;
 }
+.port-image {
+  margin: 5px;
+  opacity: .44;
+  height: 150px;
+  width: 218px;
+}
+#contact-form {
+  width: 69%;
+  color: white;
+  margin: 0 auto;
+  margin-top: 10%;
+  -ms-high-contrast-adjust: auto;
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 640px) {
+  .port-image {
+    margin: 5px;
+    opacity: .44;
+    height: 115px;
+    width: 200px;
+  }
+  #description {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 87%;
+}
+.sidebar {
+  width: 100%;
+  height: 376px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(165, 160, 160, .45);
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+ 
 }

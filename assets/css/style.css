@@ -61,6 +61,7 @@ body {
   #headshot {
       margin-left: 10%;
       float: left;
+      /* border-radius: 12px; */
   }
   
   #resume {
@@ -68,8 +69,6 @@ body {
     margin-right: 10%;
   }
   
- 
-
   .social {
     height: 100px;
     width:100px;
@@ -123,8 +122,15 @@ body {
     width: 200px;
 }
 
-#portfolio-content {
-    margin-top:10%;
+#content {
+  margin-top:5%;
+  background-color: rgb(165, 160, 160, .45);
+  height: 500px;
+}
+
+#portfolio-menu {
+  background-color: rgba(201, 134, 134, 0.45);
+  margin-top: 5%;
 }
 
 /*-------------MEDIA QUERIES-------------*/

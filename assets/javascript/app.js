@@ -18,45 +18,49 @@ $(".exit-sidebar").on("click", function(){
 })
 
 $("#trivia-link").on("click", function() {
-    preventDefault();
+    
     $("#trivia-content").show();
-
-    // $("#gifApp-content").hide();
-    // $("#friendFinder-content").hide();
-    // $("#crystalCollector-content").hide();
-    // $("#train-content").hide();
+    event.preventDefault();
+    $("#gifApp-content").hide();
+    $("#friendFinder-content").hide();
+    $("#crystalCollector-content").hide();
+    $("#train-content").hide();
 })
+
 $("#friendFinder-link").on("click", function() {
     $("#friendFinder-content").show();
-
-    // $("#trivia-content").hide();
-    // $("#gifApp-content").hide();
-    // $("#crystalCollector-content").hide();
-    // $("#train-content").hide();
+    event.preventDefault();
+    $("#trivia-content").hide();
+    $("#gifApp-content").hide();
+    $("#crystalCollector-content").hide();
+    $("#train-content").hide();
 })
+
 $("#crystalCollector-link").on("click", function() {
     $("#crystalCollector-content").show();
-
-    // $("#trivia-content").hide();
-    // $("#gifApp-content").hide();
-    // $("#friendFinder-content").hide();
-    // $("#train-content").hide();
+    event.preventDefault();
+    $("#trivia-content").hide();
+    $("#gifApp-content").hide();
+    $("#friendFinder-content").hide();
+    $("#train-content").hide();
 })
+
 $("#train-link").on("click", function() {
     $("#train-content").show();
-
-    // $("#trivia-content").hide();
-    // $("#gifApp-content").hide();
-    // $("#friendFinder-content").hide();
-    // $("#crystalCollector-content").hide();
+    event.preventDefault();
+    $("#trivia-content").hide();
+    $("#gifApp-content").hide();
+    $("#friendFinder-content").hide();
+    $("#crystalCollector-content").hide();
 })
+
 $("#gifApp-link").on("click", function() {
     $("#gifApp-content").show();
-
-    // $("#trivia-content").hide();
-    // $("#friendFinder-content").hide();
-    // $("#crystalCollector-content").hide();
-    // $("#train-content").hide();
+    event.preventDefault();
+    $("#trivia-content").hide();
+    $("#friendFinder-content").hide();
+    $("#crystalCollector-content").hide();
+    $("#train-content").hide();
 })
 
 $(window).on("load", function() {

@@ -61,6 +61,7 @@ body {
   #headshot {
       margin-left: 10%;
       float: left;
+      /* border-radius: 12px; */
   }
   
   #resume {
@@ -68,8 +69,6 @@ body {
     margin-right: 10%;
   }
   
- 
-
   .social {
     height: 100px;
     width:100px;
@@ -118,13 +117,31 @@ body {
   }
 
 .image, .port-image {
-    opacity: .44;
+    opacity: .55;
     height: 200px;
     width: 200px;
 }
 
-#portfolio-content {
-    margin-top:10%;
+#port-content {
+  margin-top:5%;
+  background-color: rgba(248, 245, 244, 0.55);
+  height: 500px;
+  color: white;
+  -ms-high-contrast-adjust: auto;
+}
+
+#portfolio-menu {
+  background-color: rgba(201, 134, 134, 0.45);
+  margin-top: 5%;
+  -ms-high-contrast-adjust: auto;
+  text-decoration: none;
+  color: white;
+}
+
+.menu {
+  -ms-high-contrast-adjust: auto;
+  text-decoration: none;
+  color: white;
 }
 
 /*-------------MEDIA QUERIES-------------*/

@@ -1,133 +1,140 @@
 body {
-    background-image: url(../images/wp1889601-bricks-wallpapers.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    text-align: center;
-    overflow: hidden;   
-    height: 100%;
- }
+  background-image: url(../images/wp1889601-bricks-wallpapers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+}
 
 #nav-bar {
-    text-align: center;
-    height: 70px;
-    background-color: rgb(165, 160, 160, .23);
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
+  text-align: center;
+  height: 70px;
+  background-color: rgb(165, 160, 160, 0.23);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
-  #port-button  {
-    opacity: .35;
-    color: #fff !important;
-    text-transform: uppercase;
-    background: rgb(165, 160, 160);
-    padding: 20px;
-    border-radius: 50px;
-    display: inline-block;
-    border: none;
-  }
+#port-button {
+  opacity: 0.35;
+  color: #fff !important;
+  text-transform: uppercase;
+  background: rgb(165, 160, 160);
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+}
 
-  #port-button:hover, .exit-sidebar:hover, #about:hover, #portfolio:hover, #contact:hover {
-    background-color: red;
-    } 
+#port-button:hover,
+.exit-sidebar:hover,
+#about:hover,
+#portfolio:hover,
+#contact:hover {
+  background-color: red;
+}
 
-  .exit-sidebar {
-    margin-right: 100%;
-    opacity: .35;
-    color: #fff !important;
-    text-transform: uppercase;
-    background: rgb(165, 160, 160);
-    padding: 10px;
-    border-radius: 50px;
-    display: inline-block;
-    border: none;
-  }
+.exit-sidebar {
+  margin-right: 100%;
+  opacity: 0.35;
+  color: #fff !important;
+  text-transform: uppercase;
+  background: rgb(165, 160, 160);
+  padding: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+}
 
-  .sidebar {
-    width: 100%;
-    height: 300px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(165, 160, 160, .45);
-    overflow-x: hidden;
-    padding-top: 16px;
-    
-  }
-  
-  #headshot {
-      margin-left: 10%;
-      float: left;
-      /* border-radius: 12px; */
-  }
-  
-  #resume {
-    float: right;
-    margin-right: 10%;
-  }
-  
-  .social {
-    height: 100px;
-    width:100px;
-  }
+.sidebar {
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(165, 160, 160, 0.45);
+  overflow-x: hidden;
+  padding-top: 16px;
+}
 
-#about,#portfolio,#contact{
-    margin: 10px;
-    align-content: center;
-    background-color: rgb(219, 208, 208);
-    color: black;
-    opacity: .50;
+#headshot {
+  margin-left: 10%;
+  float: left;
+  /* border-radius: 12px; */
+}
+
+#resume {
+  float: right;
+  margin-right: 10%;
+}
+
+.social {
+  height: 100px;
+  width: 100px;
+}
+
+#about,
+#portfolio,
+#contact {
+  margin: 10px;
+  align-content: center;
+  background-color: rgb(219, 208, 208);
+  color: black;
+  opacity: 0.5;
 }
 
 #nav-links {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 #main-content {
-     /* margin: 434px auto;  */
-     margin-top: 30%;
-    display: inline-block;
-    vertical-align: center;
-    text-align: center; 
-    
- } 
+  /* margin: 434px auto;  */
+  margin-top: 30%;
+  display: inline-block;
+  vertical-align: center;
+  text-align: center;
+}
 
-#name, #content {
-    color: white;
-    
+#name,
+#content {
+  color: white;
 }
 
 #contact-form {
-    width: 35%;
-    color: white;
-    margin: 0 auto;
-    margin-top: 10%;
-    -ms-high-contrast-adjust: auto;
+  width: 35%;
+  color: white;
+  margin: 0 auto;
+  margin-top: 10%;
+  -ms-high-contrast-adjust: auto;
 }
 
-#firstName-input,#email-input,#comments-input {
-    background-color: rgba(248, 245, 244, 0.55);
-    border: black;
-    color: white;
-   
-  
-  }
+#firstName-input,
+#email-input,
+#comments-input {
+  background-color: rgba(248, 245, 244, 0.55);
+  border: black;
+  color: white;
+}
 
-.image, .port-image {
-    opacity: .55;
-    height: 200px;
-    width: 200px;
+.image,
+.port-image {
+  opacity: 0.55;
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
 }
 
 #port-content {
-  margin-top:5%;
+  margin-top: 5%;
   background-color: rgba(79, 79, 79, 0.136);
   height: 500px;
   color: white;
   -ms-high-contrast-adjust: auto;
+  border-radius: 10%;
 }
 
 #portfolio-menu {
@@ -136,30 +143,36 @@ body {
   -ms-high-contrast-adjust: auto;
   text-decoration: none;
   color: white;
+  border-radius: 10%;
 }
 
 .menu {
   -ms-high-contrast-adjust: auto;
   text-decoration: none;
-  color: white;
+  text-decoration-color: white;
+  text-decoration-line: none;
+}
+
+.project-description {
+  font-weight: bold;
+  padding: 15px;
 }
 
 /*-------------MEDIA QUERIES-------------*/
 
 @media screen and (max-width: 812px) {
- 
-  .sidebar{
+  .sidebar {
     width: 100%;
     height: 400px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(165, 160, 160, .45);
+    background-color: rgb(165, 160, 160, 0.45);
     overflow-x: hidden;
     padding-top: 16px;
-}
- 
+  }
+
   #description {
     position: relative;
     width: 100%;
@@ -171,27 +184,27 @@ body {
     height: 100px;
     width: 100px;
     margin-top: 5%;
-}
-.port-image {
-  margin: 5px;
-  opacity: .44;
-  height: 150px;
-  width: 218px;
-}
-#contact-form {
-  width: 69%;
-  color: white;
-  margin: 0 auto;
-  margin-top: 10%;
-  -ms-high-contrast-adjust: auto;
-  text-align: center;
-}
+  }
+  .port-image {
+    margin: 5px;
+    opacity: 0.44;
+    height: 150px;
+    width: 218px;
+  }
+  #contact-form {
+    width: 69%;
+    color: white;
+    margin: 0 auto;
+    margin-top: 10%;
+    -ms-high-contrast-adjust: auto;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 640px) {
   .port-image {
     margin: 5px;
-    opacity: .44;
+    opacity: 0.44;
     height: 115px;
     width: 200px;
   }
@@ -201,17 +214,16 @@ body {
     padding-right: 15px;
     padding-left: 15px;
     margin-top: 87%;
-}
-.sidebar {
-  width: 100%;
-  height: 376px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(165, 160, 160, .45);
-  overflow-x: hidden;
-  padding-top: 16px;
-}
- 
+  }
+  .sidebar {
+    width: 100%;
+    height: 376px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(165, 160, 160, 0.45);
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
 }

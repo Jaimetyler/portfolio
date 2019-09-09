@@ -1,4 +1,55 @@
+
 <!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact form to email</title>
+</head>
+
+<body>
+ <?php
+
+if($_POST["submit"]) {
+    $recipient="your@email.address";
+    $subject="Form to email message";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?>
+
+    <?=$thankYou ?>
+
+    <form method="post" action="contact.php">
+        <label>Name:</label>
+        <input name="sender">
+
+        <label>Email address:</label>
+        <input name="senderEmail">
+
+        <label>Message:</label>
+        <textarea rows="5" cols="20" name="message"></textarea>
+
+        <input type="submit" name="submit">
+    </form>
+
+</body>
+
+</html>
+ 
+ 
+
+
+
+<!--<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,24 +64,6 @@
 </head>
 
 <body>
-    <?php
-    
-    if($_POST["submit"]) {
-        $recipient="your@email.address";
-        $subject="Form to email message";
-        $sender=$_POST["sender"];
-        $senderEmail=$_POST["senderEmail"];
-        $message=$_POST["message"];
-    
-        $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
-    
-        mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
-    
-        $thankYou="<p>Thank you! Your message has been sent.</p>";
-    }
-    
-    ?>
-    
     <ul class="nav nav-pills" id="nav-bar">
         <div class="row" id="nav-links">
             <li class="nav-item">
@@ -46,12 +79,12 @@
         </div>
     </ul>
     <div class="container" id="contact-form">
-        <form>
+        <form method="post" action="contact.php">
             <div class="form-group" id="form-firstName">
                 <label for="first-name">
                     <h4>Name</h4>
                 </label>
-                <input type="text" class="form-control" id="firstName-input" placeholder="Bob">
+                <input type="text" class="form-control" id="firstName-input" placeholder="Bob" name="name">
             </div>
            
                
@@ -59,15 +92,15 @@
                     <label for="email">
                         <h4>Email address</h4>
                     </label>
-                    <input type="email" class="form-control" id="email-input" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="email-input" placeholder="name@example.com" name="emaill">
                 </div>
                 <div class="form-group" id="form-comments">
                     <label for="comments">
                         <h4>Discuss Project</h4>
                     </label>
-                    <textarea class="form-control" id="comments-input" rows="3"></textarea>
+                    <textarea class="form-control" id="comments-input" rows="3" name="message"></textarea>
                 </div>
-                <button type="button" class="btn btn-outline-danger" id="submit">Submit</button>
+                <button type="button" class="btn btn-outline-danger" id="submit" name="submit">Submit</button>
         </form>
 </div>
 
@@ -78,4 +111,4 @@
         <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 
-</html>
+</html> -->
